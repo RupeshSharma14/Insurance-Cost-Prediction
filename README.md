@@ -1,5 +1,5 @@
 # Insurance-Cost-Prediction
-Insurance cost prediction system is implemented using Random Forest Regression in python. The purpose of the model is to predict the premium charges with the help of the following features:
+Insurance cost prediction system is implemented using Random Forest Regression algorithm in python. The purpose of the model is to predict the insurance premium charges with the help of the following features:
 1. age: Age of policy holder.
 2. sex: Gender of policy holder.
 3. bmi: Body mass index (BMI) is a measure of body fat based on height and weight.
