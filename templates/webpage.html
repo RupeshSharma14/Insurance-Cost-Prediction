@@ -15,10 +15,10 @@
 
 <body>
  <div class="login">
-	<h1>Insurance Cost Prediction</h1>
+	<center><h1>Insurance Cost Prediction</h1><center>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
+    <center><form action="{{ url_for('predict')}}"method="post">
     	<input type="number" name="Age" placeholder="Age" required="required" min="18" max="64" />
     	<input list="gender" name = "Gender" placeholder="Gender" required="required" />
     	<datalist id="gender">
@@ -42,8 +42,8 @@
  
 
 
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
-    </form>
+        <center><button type="submit" class="btn btn-primary btn-block btn-large">Predict</button></center>
+    </form></center>
 
    <br>
    <br>
